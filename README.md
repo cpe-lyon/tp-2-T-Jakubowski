@@ -1,4 +1,5 @@
 ## Exercice 1 :
+---
 
 1.	Les commandes tapées par l'utilisateur se trouve dans les dossiers bin et sbin.
 
@@ -19,6 +20,7 @@
 
 
 ## Exercice 2 :
+---
 
 ```
 #!/bin/bash
@@ -33,6 +35,7 @@ fi
 ```
 
 ## Exercice 3 :
+---
 
 ```#!/bin/bash
 function is_number()
@@ -50,9 +53,11 @@ if [ $? -eq 0 ]; then
   echo "C'est un nombre!"
 else 
   echo "Ce n'est pas un nombre !"
-fi```
+fi
+```
 
 ## Exercice 4 :
+---
 
 ```
 #!/bin/bash
@@ -67,6 +72,7 @@ fi
 ```
 
 ## Exercice 5
+---
 
 ```
 #!/bin/bash
@@ -81,6 +87,7 @@ echo $somme
 ```
 
 ## Exercice 6 :
+---
 ```
 #!/bin/bash
 random=$((1 + $RANDOM % 1000))
@@ -100,6 +107,7 @@ done
 ```
 
 ## Exercice 7 :
+---
 
 a.
 ```
