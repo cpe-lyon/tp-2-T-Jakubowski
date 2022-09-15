@@ -52,7 +52,7 @@ fi```
 
 ## Exercice 4 :
 
-#!/bin/bash
+```#!/bin/bash
 read user
 if [ "_user" = _$USER" ]; then
   echo "L'utilisateur est correct"
