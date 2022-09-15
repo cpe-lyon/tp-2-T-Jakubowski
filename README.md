@@ -63,3 +63,34 @@ else
 fi```
 
 ## Exercice 5
+
+```#!/bin/bash
+read input
+somme=1
+for i in $(seq 1 $input);
+do
+  somme=$(( $i*$somme))
+done
+
+echo $somme```
+
+## Exercice 6 :
+```#!/bin/bash
+random=$((1 + $RANDOM % 1000))
+verif=true
+while $verif; do
+  read input
+  
+  if (( $input > $random )); then
+    echo "Votre nombre est trop grand!"
+  elif (( $input < $random )); then
+    echo "Votre nombre est trop petit!"
+  else
+      verif=false
+      echo "Bien joué vous avez trouvé le nombre!"
+  fi
+done```
+
+## Exercice 7 :
+
+
