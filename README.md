@@ -93,4 +93,37 @@ done```
 
 ## Exercice 7 :
 
+```#!/bin/bash
+declare -a arr=($1, $2, $3)
+somme=0
+for arr in ${arr[*]}
+do  
+  somme=$(( $i+$arr))
+done
 
+result=$((somme/3))
+echo $result
+echo ${arr[-1]}
+echo ${arr[0]}```
+
+```#!/bin/bash
+declare -a arr=()
+echo "Choisissez la quantité !"
+read inputNb
+
+for i in $(seq 1 $inputNb);
+do
+  read input
+  arr+=($input)
+done
+
+somme=0
+for arr in ${arr[*]}
+do  
+  somme=$(( $i+$arr))
+done
+
+result=$((somme/${#arr[@]}))
+echo $result
+echo ${arr[-1]}
+echo ${arr[0]}```
