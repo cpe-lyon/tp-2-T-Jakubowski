@@ -20,6 +20,7 @@
 
 ## Exercice 2 :
 
+```
 #!/bin/bash
 echo "Entrer un mot de passe !"
 mdp="aze+123"
@@ -28,7 +29,8 @@ if [ "$inputMdp" = "$mdp" ]; then
   echo "Le mot de passe est juste !"
 else
   echo "Le mot de passe est faux !"
-fi```
+fi
+```
 
 ## Exercice 3 :
 
