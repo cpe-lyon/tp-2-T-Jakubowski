@@ -20,7 +20,7 @@
 
 ## Exercice 2 :
 
-```#!/bin/bash
+#!/bin/bash
 echo "Entrer un mot de passe !"
 mdp="aze+123"
 read inputMdp
