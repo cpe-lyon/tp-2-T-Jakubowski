@@ -54,7 +54,8 @@ fi```
 
 ## Exercice 4 :
 
-```#!/bin/bash
+```
+#!/bin/bash
 read user
 if [ "_user" = _$USER" ]; then
   echo "L'utilisateur est correct"
@@ -62,11 +63,13 @@ elif [ "_$user" = "_" ]; then
   echo "Utilisation: $USER"
 else
   echo "L'utilisateur n'existe pas!"
-fi```
+fi
+```
 
 ## Exercice 5
 
-```#!/bin/bash
+```
+#!/bin/bash
 read input
 somme=1
 for i in $(seq 1 $input);
@@ -74,10 +77,12 @@ do
   somme=$(( $i*$somme))
 done
 
-echo $somme```
+echo $somme
+```
 
 ## Exercice 6 :
-```#!/bin/bash
+```
+#!/bin/bash
 random=$((1 + $RANDOM % 1000))
 verif=true
 while $verif; do
@@ -91,11 +96,14 @@ while $verif; do
       verif=false
       echo "Bien joué vous avez trouvé le nombre!"
   fi
-done```
+done
+```
 
 ## Exercice 7 :
 
-```#!/bin/bash
+a.
+```
+#!/bin/bash
 declare -a arr=($1, $2, $3)
 somme=0
 for arr in ${arr[*]}
@@ -106,9 +114,12 @@ done
 result=$((somme/3))
 echo $result
 echo ${arr[-1]}
-echo ${arr[0]}```
+echo ${arr[0]}
+```
 
-```#!/bin/bash
+b.c.
+```
+#!/bin/bash
 declare -a arr=()
 echo "Choisissez la quantité !"
 read inputNb
@@ -128,4 +139,5 @@ done
 result=$((somme/${#arr[@]}))
 echo $result
 echo ${arr[-1]}
-echo ${arr[0]}```
+echo ${arr[0]}
+```
